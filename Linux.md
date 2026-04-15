@@ -145,19 +145,6 @@ Linux يتبع هيكل شجري موحد يُسمى **Filesystem Hierarchy Stan
 - Tcsh / Csh
 - Ksh
 
-### Bash Prompt
-
-الـ Prompt هو السطر الذي يظهر قبل كتابة الأمر.
-
-**أمثلة:**
-```
-username@hostname[~]$
-```
-تمام يا محمد، خلاص هعدل الستايل من دلوقتي.
-
-العربي هيبقى **عامية مصرية سيكا** (زي ما بنتكلم في الشارع أو بنراجع مع بعض)، والإنجليزي هيفضل رسمي ومنسق زي ما هو.
-
-هنا **الجزء اللي بعته (Bash Prompt)** منسق بالطريقة الجديدة اللي طلبتها:
 
 ---
 ## Bash Prompt
@@ -230,11 +217,6 @@ $
 
 تقدر تخصص شكل الـ Terminal كله (ألوان، خطوط، ثيمات...) عشان تبقى مرتاح وهي بتشتغل.  
 تخصيص الـ Prompt بالتفصيل خارج نطاق الموديول ده، بس في أدوات حلوة زي **bash-prompt-generator** و **Powerline** تقدر تجربها وتعدل الـ Prompt زي ما تحب.
-
----
-تمام يا محمد! 🔥  
-
-هنا الجزء الجديد (**Getting Help**) منسق بنفس الستايل اللي بتحبه، بالعامية المصرية السيكا:
 
 ---
 ## Getting Help
@@ -347,11 +329,6 @@ visudo (8)           - edit the sudoers file
 → [https://explainshell.com/](https://explainshell.com/)
 
 ---
-تمام يا محمد!  
-
-هنا **Section 6/30** منسق كامل بالعامية المصرية السيكا زي ما طلبت:
-
----
 ## System Information
 
 دلوقتي خلينا ندخل في التطبيق العملي عشان نتعود على الـ Terminal والـ Shell.  
@@ -407,7 +384,7 @@ geekmo1@htb[/htb]$ ssh htb-student@[IP address]
 ```bash
 cry0l1t3@htb[/htb]$ hostname
 
-nixfund
+Moksha_Hamd
 ```
 
 بيطبع اسم الجهاز اللي إحنا داخلين عليه.
@@ -417,7 +394,7 @@ nixfund
 ```bash
 cry0l1t3@htb[/htb]$ whoami
 
-cry0l1t3
+Moksha_Hamd
 ```
 
 أسرع طريقة تعرف بيها أنت مسجل دخول بأي يوزر.  
@@ -475,7 +452,7 @@ cry0l1t3@htb[/htb]$ uname -r
 ```bash
 cry0l1t3@htb[~]$ pwd
 
-/home/cry0l1t3
+/home/Moksha_Hamd
 ```
 
 الأمر `pwd` (Print Working Directory) بيقولك أنت واقف في أي مجلد حاليًا.
