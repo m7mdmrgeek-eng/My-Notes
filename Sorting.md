@@ -50,7 +50,7 @@ int main()
 - **Best Case** = O(n) _(لو الـ array مرتبة خلاص)_
 - **Average Case** = O(n²)
 - **Worst Case** = O(n²)
-```cpp 
+``` cpp 
 #include <iostream>
 using namespace std;
 
