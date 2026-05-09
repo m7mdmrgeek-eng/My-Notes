@@ -92,7 +92,7 @@ void BubbleSort(int arr[], int size)
                 swapped = true;
             }
         }
-        if (!swapped) break; // Early exit if already sorted
+        if (!swapped) break; 
     }
 
     for (int i = 0; i < size; i++)
@@ -129,15 +129,15 @@ void InsertionSort(int arr[], int size)
 {
     for (int i = 1; i < size; i++)
     {
-        int key = arr[i]; // Element to be placed in correct position
+        int key = arr[i];
         int j = i - 1;
 
         while (j >= 0 && arr[j] > key)
         {
-            arr[j + 1] = arr[j]; // Shift element one step forward
+            arr[j + 1] = arr[j]; 
             j--;
         }
-        arr[j + 1] = key; // Place element in correct position
+        arr[j + 1] = key; 
     }
 
     for (int i = 0; i < size; i++)
@@ -180,10 +180,10 @@ int Partition(int arr[], int low, int high)
         if (arr[j] <= pivot)
         {
             i++;
-            swap(arr[i], arr[j]); // Move smaller elements to the left
+            swap(arr[i], arr[j]); //
         }
     }
-    swap(arr[i + 1], arr[high]); // Place pivot in correct position
+    swap(arr[i + 1], arr[high]); 
     return i + 1;
 }
 
@@ -192,8 +192,8 @@ void QuickSort(int arr[], int low, int high)
     if (low < high)
     {
         int pivotIdx = Partition(arr, low, high);
-        QuickSort(arr, low, pivotIdx - 1);  // Sort left partition
-        QuickSort(arr, pivotIdx + 1, high); // Sort right partition
+        QuickSort(arr, low, pivotIdx - 1);  
+        QuickSort(arr, pivotIdx + 1, high); 
     }
 }
 
